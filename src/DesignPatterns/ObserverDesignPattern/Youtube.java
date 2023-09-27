@@ -7,7 +7,7 @@ public class Youtube {
     // objects about any events that happen to the object they’re observing.
 
     //Observer lets receivers dynamically subscribe to and unsubscribe from receiving requests.
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // there is a channel with name as ch
         Channel ch = new Channel();
