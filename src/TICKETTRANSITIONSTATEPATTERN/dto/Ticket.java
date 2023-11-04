@@ -18,7 +18,7 @@ public class Ticket {
     public Ticket(String discription, User createdBy) {
         this.discription = discription;
         this.createdBy = createdBy;
-        this.state = new Analysis();
+        this.state = Analysis.getInstance();
     }
 
     public String getDiscription() {
